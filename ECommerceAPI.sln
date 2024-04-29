@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E6F6CFB4-24F5-4E8C-A222-0EE7B1ECAEBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Domain", "Core\ECommerceAPI.Domain\ECommerceAPI.Domain.csproj", "{E14C744C-56A0-4208-9FFE-D87679DC07AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Application", "Core\ECommerceAPI.Application\ECommerceAPI.Application.csproj", "{94D8FE99-F0AC-40CA-A577-9C0902591C30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1F73F346-3B2F-4776-9C12-D5F8FDE3D0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Infrastructure", "Infrastructure\ECommerceAPI.Infrastructure\ECommerceAPI.Infrastructure.csproj", "{FD414D59-928F-44F5-A915-C632F3BBECB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Persistence", "Infrastructure\ECommerceAPI.Persistence\ECommerceAPI.Persistence.csproj", "{D801F945-6725-4F1C-82CD-CDF95B675C70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{17C052F1-7232-4092-BB38-B0B493F0EBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.API", "Presentation\ECommerceAPI.AP\ECommerceAPI.API.csproj", "{08C23393-09EA-47BB-8A9B-27CAA2FEDB25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E14C744C-56A0-4208-9FFE-D87679DC07AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14C744C-56A0-4208-9FFE-D87679DC07AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14C744C-56A0-4208-9FFE-D87679DC07AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14C744C-56A0-4208-9FFE-D87679DC07AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D8FE99-F0AC-40CA-A577-9C0902591C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D8FE99-F0AC-40CA-A577-9C0902591C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D8FE99-F0AC-40CA-A577-9C0902591C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D8FE99-F0AC-40CA-A577-9C0902591C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD414D59-928F-44F5-A915-C632F3BBECB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD414D59-928F-44F5-A915-C632F3BBECB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD414D59-928F-44F5-A915-C632F3BBECB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD414D59-928F-44F5-A915-C632F3BBECB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D801F945-6725-4F1C-82CD-CDF95B675C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D801F945-6725-4F1C-82CD-CDF95B675C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D801F945-6725-4F1C-82CD-CDF95B675C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D801F945-6725-4F1C-82CD-CDF95B675C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C23393-09EA-47BB-8A9B-27CAA2FEDB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C23393-09EA-47BB-8A9B-27CAA2FEDB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C23393-09EA-47BB-8A9B-27CAA2FEDB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C23393-09EA-47BB-8A9B-27CAA2FEDB25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4D550F1-A3A2-4CB1-9216-15EFE419870F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E14C744C-56A0-4208-9FFE-D87679DC07AE} = {E6F6CFB4-24F5-4E8C-A222-0EE7B1ECAEBF}
+		{94D8FE99-F0AC-40CA-A577-9C0902591C30} = {E6F6CFB4-24F5-4E8C-A222-0EE7B1ECAEBF}
+		{FD414D59-928F-44F5-A915-C632F3BBECB4} = {1F73F346-3B2F-4776-9C12-D5F8FDE3D0C8}
+		{D801F945-6725-4F1C-82CD-CDF95B675C70} = {1F73F346-3B2F-4776-9C12-D5F8FDE3D0C8}
+		{08C23393-09EA-47BB-8A9B-27CAA2FEDB25} = {17C052F1-7232-4092-BB38-B0B493F0EBEB}
+	EndGlobalSection
+EndGlobal
